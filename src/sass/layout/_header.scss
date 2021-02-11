@@ -1,0 +1,14 @@
+.header {
+  height: 100vh;
+  background-image: url(../../assets/hero.jpg);
+  background-size: cover;
+  background-position: bottom;
+
+  &__modelandphoto {
+    font-size: 1rem;
+    color: $color-white;
+    a {
+      color: $color-white;
+    }
+  }
+}
