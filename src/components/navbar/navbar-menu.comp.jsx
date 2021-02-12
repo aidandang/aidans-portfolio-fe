@@ -1,7 +1,7 @@
 import React from 'react'
 
 // dependencies
-import { Link, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 // data
 import { NavbarData } from '../../state/navbar/navbar.data'
 
@@ -15,7 +15,7 @@ const NavbarMenu = () => {
           {
             item.link === location.pathname
             ? <span className="text-mute">{item.text}</span>
-            : <Link to={item.link} className="nav-custom__link">{item.text}</Link>
+            : <a href={item.link} className="nav-custom__link">{item.text}</a>
           }
         </span> 
       )

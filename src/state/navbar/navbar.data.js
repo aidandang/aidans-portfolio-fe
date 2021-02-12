@@ -9,7 +9,7 @@ export const NavbarData = {
     {
       id: 2,
       text: 'Contact',
-      link: '/contact',
+      link: '#contact_information',
       icon: 'fas fa-readme'
     }
   ]

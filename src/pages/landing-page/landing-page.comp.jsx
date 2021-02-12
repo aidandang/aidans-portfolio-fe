@@ -13,7 +13,7 @@ const LandingPage = () => {
           <div className="row m-0 p-0">
             <div className="col pb-3">
               <span className="header__modelandphoto">
-                Model: <a href="https://www.instagram.com/austindistel/">@austindistel</a>, Photographer: <a href="https://www.instagram.com/breeandstephen/">@breeandstephen</a>
+                Credits: Upsplash, <a href="https://unsplash.com/@ele1010" target="_blank" rel="noreferrer">@ele1010</a>
               </span>
             </div>
           </div>
